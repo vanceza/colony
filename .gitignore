@@ -1,6 +1,7 @@
 /minecraft/stats
 /minecraft/saves
 /minecraft/logs
+/minecraft/asm
 /minecraft/crash-reports
 *.log
 *.log.*
