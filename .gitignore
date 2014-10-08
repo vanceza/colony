@@ -2,3 +2,15 @@
 /minecraft/saves
 /minecraft/logs
 /minecraft/crash-reports
+*.log
+*.log.*
+/minecraft/libraries
+/minecraft/*.jar
+
+/minecraft/white-list.txt
+/minecraft/world/
+/minecraft/banned-ips.txt
+/minecraft/banned-players.txt
+/minecraft/server.properties
+/minecraft/options.txt
+
