@@ -8,11 +8,13 @@ Any part of this pack which is more than the sum of its parts, is released into 
 
 Content Mods:
 
+- Better Storage
 - ChickenChunks
 - Carpenter's Blocks
+- Compact Machines
 - ComputerCraft
-- EnderStorage
-- ExtraUtilities
+- Ender Storage
+- Extra Utilities
 - Flat Signs
 - Hopper Ducts
 - Iron Chests
