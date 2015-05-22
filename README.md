@@ -9,8 +9,10 @@ Any part of this pack which is more than the sum of its parts, is released into 
 Content Mods:
 
 - Applied Energistics 2 by AlgorithmX2 [http://ae-mod.info/][LGPL v3]
+- Better Storage by copygirl [http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1442380-betterstorage-0-13-1-126-wip][MIT]
 - ChickenChunks by ChickenBones [http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods][MIT]
 - Carpenter's Blocks by MineShopper [http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1288875-carpenters-blocks][LGPL v2.1]
+- Compact Machines by Davenonymous [http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2220422-compact-machines-v1-18][LGPL v3]
 - ComputerCraft by dan200 [http://www.computercraft.info/][Closed]
 - EnderStorage by ChickenBones [http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods][MIT]
 - ExtraUtilities by RWTema [http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k][Closed]
