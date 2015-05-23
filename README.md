@@ -9,6 +9,7 @@ Content Mods:
 
 - [Applied Energistics 2](http://ae-mod.info/) by AlgorithmX2 (LGPL v3)
 - [Better Storage](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1442380-betterstorage-0-13-1-126-wip) by copygirl (MIT)
+- [Bibliocraft](http://www.bibliocraftmod.com/) by Nuchaz (Closed)
 - [ChickenChunks](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods) by ChickenBones (MIT)
 - [Carpenter's Blocks](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1288875-carpenters-blocks) by MineShopper (LGPL v2.1)
 - [Compact Machines](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2220422-compact-machines-v1-18) by Davenonymous (LGPL v3)
