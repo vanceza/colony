@@ -27,6 +27,7 @@ Content Mods:
 - [Steve's Factory Manager](http://stevesfactorymanager.wikispaces.com/) by Vswe (???)
 - [Sync](http://ichun.us/mods/sync/) by iChun (Closed)
 - [Tradebooth](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443329-smp-trade-booth-mod) by aeroc (Copyrighted, open source)
+- [Universal Coins](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076302-universal-coins) by notabadminer and TED\_996 (MIT)
 
 UI Mods:
 
