@@ -14,7 +14,7 @@ Content Mods:
 - [Carpenter's Blocks](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1288875-carpenters-blocks) by MineShopper (LGPL v2.1)
 - [Compact Machines](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2220422-compact-machines-v1-18) by Davenonymous (LGPL v3)
 - [ComputerCraft](http://www.computercraft.info/) by dan200 (Closed)
-- [EnderStorage](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods) by ChickenBones (MIT) (Disabled)
+- [EnderStorage](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods) by ChickenBones (MIT)
 - [ExtraUtilities](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k) by RWTema (Closed)
 - [Flat Bedrock](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1278764-1-5-2-bams-mods-now-also-for-1-4-7) by BaM (Closed)
 - [Flat Signs](http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/) by Myrathi (CC-NC-ND)
