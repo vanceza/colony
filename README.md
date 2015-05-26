@@ -28,6 +28,7 @@ Content Mods:
 - [Open Peripheral](http://www.openmods.info/) (Terminal Glasses only) (MIT)
 - [Steve's Factory Manager](http://stevesfactorymanager.wikispaces.com/) by Vswe (???)
 - [Sync](http://ichun.us/mods/sync/) by iChun (Closed)
+- [Terrain Control](http://dev.bukkit.org/bukkit-plugins/terrain-control/) by Khoorn (SpoutDev License v1)
 - [Tradebooth](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443329-smp-trade-booth-mod) by aeroc (All right reserved, open source)
 - [Universal Coins](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076302-universal-coins) by notabadminer and TED\_996 (MIT)
 
