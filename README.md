@@ -20,6 +20,7 @@ Content Mods:
 - [ExtraUtilities](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1443963-extra-utilities-v1-1-0k) by RWTema (Closed)
 - [Flat Bedrock](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1278764-1-5-2-bams-mods-now-also-for-1-4-7) by BaM (Closed)
 - [Flat Signs](http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/) by Myrathi (CC-NC-ND)
+- [Hardcore Questing Mode](http://minecraft.curseforge.com/mc-mods/77027-hardcore-questing-mode) by vswe (Closed)
 - [Hopper Ducts](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291075-1-5-x-1-6-x-1-7-x-1-8-hopper-ducts-mod) by FyberOptic (Closed)
 - [Hunger Overhaul](http://minecraft.curseforge.com/mc-mods/224476-hunger-overhaul) by Iguanaman et al (Closed)
 - [Iron Chests](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280827-1-5-and-up-forge-universal-ironchests-5-0) by cpw (GPL v3)
