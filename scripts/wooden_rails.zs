@@ -1,20 +1,20 @@
 recipes.addShaped(<minecraft:rail> * 4,
-	[[<minecraft:planks>, null, <minecraft:planks>],
-	[<minecraft:planks>, <minecraft:stick>, <minecraft:planks>],
-	[<minecraft:planks>, null, <minecraft:planks>]]);
+	[[<ore:plankWood>, null, <ore:plankWood>],
+	[<ore:plankWood>, <ore:stickWood>, <ore:plankWood>],
+	[<ore:plankWood>, null, <ore:plankWood>]]);
 
 recipes.addShaped(<minecraft:golden_rail>,
-	[[<minecraft:planks>, null, <minecraft:planks>],
-	[<minecraft:planks>, <minecraft:stick>, <minecraft:planks>],
-	[<minecraft:planks>, <minecraft:redstone>, <minecraft:planks>]]);
+	[[<ore:plankWood>, null, <ore:plankWood>],
+	[<ore:plankWood>, <ore:stickWood>, <ore:plankWood>],
+	[<ore:plankWood>, <ore:dustRedstone>, <ore:plankWood>]]);
 recipes.addShaped(<minecraft:detector_rail>,
-	[[<minecraft:planks>, null, <minecraft:planks>],
-	[<minecraft:planks>, <minecraft:stone_pressure_plate>, <minecraft:planks>],
-	[<minecraft:planks>, <minecraft:redstone>, <minecraft:planks>]]);
+	[[<ore:plankWood>, null, <ore:plankWood>],
+	[<ore:plankWood>, <minecraft:stone_pressure_plate>, <ore:plankWood>],
+	[<ore:plankWood>, <ore:dustRedstone>, <ore:plankWood>]]);
 recipes.addShaped(<minecraft:activator_rail>,
-	[[<minecraft:planks>, <minecraft:stick>, <minecraft:planks>],
-	[<minecraft:planks>, <minecraft:redstone_torch>, <minecraft:planks>],
-	[<minecraft:planks>, <minecraft:stick>, <minecraft:planks>]]);
+	[[<ore:plankWood>, <ore:stickWood>, <ore:plankWood>],
+	[<ore:plankWood>, <minecraft:redstone_torch>, <ore:plankWood>],
+	[<ore:plankWood>, <ore:stickWood>, <ore:plankWood>]]);
 recipes.addShaped(<minecraft:minecart>,
-	[[<minecraft:log>, null, <minecraft:log>],
-	 [<minecraft:log>, <minecraft:log>, <minecraft:log>]]);
+	[[<ore:treeWood>, null, <ore:treeWood>],
+	 [<ore:treeWood>, <ore:treeWood>, <ore:treeWood>]]);
