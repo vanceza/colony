@@ -56,6 +56,10 @@ Dependencies:
 - [iChunUtil](http://ichun.us/mods/ichunutil/) by iChun (closed+[eula](http://ichun.us/mods/ichunutil/end-user-license-agreement/))
 - [OpenModsLib](http://www.openmods.info/) (MIT)
 
+Special Thanks
+--------------
+The version of Lockdown and Terrain Control I'm using are from Solder
+
 License
 -------
 Any part of this pack which is more than the sum of its parts, is released into the public domain. That means you can do anything you want with it. Licensing and permissions for individual mods are listed above.
