@@ -160,7 +160,7 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 StoneBlock: STONE
 
 # Surface block, usually GRASS. Doesn't support block data.
-SurfaceBlock: MYCEL
+SurfaceBlock: GRASS
 
 # Block from stone to surface, like dirt in most biomes. Doesn't support block data.
 GroundBlock: DIRT
@@ -305,7 +305,6 @@ FoliageColorIsMultiplier: true
 SmallLake(WATER,4,7.0,8,120)
 SmallLake(LAVA,2,1.0,8,120)
 UnderGroundLake(25,60,2,5.0,0,50)
-Dungeon(8,100.0,0,128)
 Ore(DIRT,32,20,100.0,0,128,STONE)
 Ore(GRAVEL,32,10,100.0,0,128,STONE)
 Ore(COAL_ORE,16,20,100.0,0,128,STONE)
@@ -319,9 +318,13 @@ UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 CustomObject(UseWorld)
 Tree(1,HugeMushroom,100)
+Tree(2,Birch,20,Tree,100)
 AboveWaterRes(WATER_LILY,1,100.0)
 Plant(RedMushroom,2,50.0,0,128,MYCEL,DIRT)
 Plant(BrownMushroom,2,50.0,0,128,MYCEL,DIRT)
+Grass(Tallgrass,NotGrouped,100,100.0,GRASS,DIRT)
+Plant(PUMPKIN,1,3.0,0,128,GRASS)
+Reed(SUGAR_CANE_BLOCK,5,100.0,0,128,GRASS,DIRT,SAND)
 Plant(PUMPKIN,1,3.0,0,128,GRASS)
 Liquid(WATER,20,100.0,8,128,STONE)
 Liquid(LAVA,10,100.0,8,128,STONE)
@@ -371,7 +374,7 @@ StrongholdsEnabled: false
 NetherFortressesEnabled: false
 
 # The village type in this biome. Can be wood, sandstone or disabled.
-VillageType: disabled
+VillageType: wood
 
 # The mineshaft rarity from 0 to 100. 0 = no mineshafts, 1 = default rarity, 100 = a wooden chaos.
 MineshaftRarity: 1.0
