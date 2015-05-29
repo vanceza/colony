@@ -1,4 +1,4 @@
-# This is the biome config file of the DesertHills biome, which is one of the vanilla biomes.
+# This is the biome config file of the Ice Plains biome, which is one of the vanilla biomes.
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -28,7 +28,7 @@ ResourceInheritance: true
 # Higher numbers give a smaller biome, lower numbers a larger biome.
 # Oceans and rivers are generated using a dirrerent algorithm in the default settings,
 # (they aren't in one of the biome lists), so this setting won't affect them.
-BiomeSize: 6
+BiomeSize: 4
 
 # Biome rarity from 100 to 1. If this is normal or ice biome - chance for spawn this biome then others.
 # Example for normal biome :
@@ -36,11 +36,11 @@ BiomeSize: 6
 #   50 rarity mean 1/11 chance than other
 # For isle biome this is chance to spawn isle in good place.
 # Don`t work on Ocean and River (frozen versions too) biomes until not added as normal biome.
-BiomeRarity: 97
+BiomeRarity: 100
 
 # The hexadecimal color value of this biome. Used in the output of the /tc map command,
 # and used in the input of BiomeMode:FromImage.
-BiomeColor: #D25F12
+BiomeColor: #FFFFFF
 
 # (ReplaceToBiomeName is only available in custom biomes.)
 
@@ -49,7 +49,7 @@ BiomeColor: #D25F12
 ####################
 
 # Biome name list where this biome will be spawned as isle. Like Mushroom isle in Ocean.  This work only if this biome is in IsleBiomes in world config
-IsleInBiome: Desert
+IsleInBiome: 
 
 ######################
 # Border biomes only #
@@ -71,10 +71,10 @@ NotBorderNear:
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: 0.45
+BiomeHeight: 0.125
 
 # Biome volatility.
-BiomeVolatility: 0.3
+BiomeVolatility: 0.05
 
 # Smooth radius between biomes. Must be between 0 and 32, inclusive. The resulting
 # smooth radius seems to be  (thisSmoothRadius + 1 + smoothRadiusOfBiomeOnOtherSide) * 4 .
@@ -128,7 +128,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 
 # Only available when ImprovedRivers is set to false in the WorldConfig.
 # Sets which biome is used as the river biome.
-RiverBiome: River
+RiverBiome:
 
 #######################
 # ImprovedRivers:true #
@@ -160,10 +160,10 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 StoneBlock: STONE
 
 # Surface block, usually GRASS. Doesn't support block data.
-SurfaceBlock: SAND
+SurfaceBlock: GRAVEL
 
 # Block from stone to surface, like dirt in most biomes. Doesn't support block data.
-GroundBlock: SAND
+GroundBlock: STONE
 
 # Setting for biomes with more complex surface and ground blocks.
 # Each column in the world has a noise value from what appears to be -7 to 7.
@@ -191,7 +191,7 @@ ReplacedBlocks: None
 #################
 
 # Set this to false to use the water and ice settings of this biome.
-UseWorldWaterLevel: true
+UseWorldWaterLevel: false
 
 # Set water level. Every empty between this levels will be fill water or another block from WaterBlock.
 WaterLevelMax: 63
@@ -199,7 +199,7 @@ WaterLevelMax: 63
 WaterLevelMin: 0
 
 # Block used as water in WaterLevelMax
-WaterBlock: STATIONARY_WATER
+WaterBlock: ICE
 
 # Block used as ice. Ice only spawns if the BiomeTemperture is low enough.
 IceBlock: ICE
@@ -214,14 +214,14 @@ IceBlock: ICE
 # Most of the settings here only have an effect on players with the client version of Terrain Control installed.
 # Biome temperature. Float value from 0.0 to 2.0.
 # On default biomes, this won't do anything except changing the grass and leaves colors slightly.
-BiomeTemperature: 2.0
+BiomeTemperature: 0.2
 
 # Biome wetness. Float value from 0.0 to 1.0.
 # On default biomes, this won't do anything except changing the grass and leaves colors slightly.
-BiomeWetness: 0.0
+BiomeWetness: 0
 
 # Biome sky color.
-SkyColor: #7BA5FF
+SkyColor: #000011
 
 # Biome water color multiplier.
 WaterColor: #FFFFFF
@@ -302,10 +302,10 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+SmallLake(ICE,4,7.0,8,120)
 SmallLake(LAVA,2,1.0,8,120)
 UnderGroundLake(25,60,2,5.0,0,50)
 Dungeon(8,100.0,0,128)
-Ore(DIRT,32,20,100.0,0,128,STONE)
 Ore(GRAVEL,32,10,100.0,0,128,STONE)
 Ore(COAL_ORE,16,20,100.0,0,128,STONE)
 Ore(IRON_ORE,8,20,100.0,0,64,STONE)
@@ -314,17 +314,10 @@ Ore(REDSTONE_ORE,7,8,100.0,0,16,STONE)
 Ore(DIAMOND_ORE,7,1,100.0,0,16,STONE)
 Ore(LAPIS_ORE,7,1,100.0,0,16,STONE)
 UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
-UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
 UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
 CustomObject(UseWorld)
-Plant(Dandelion,2,100.0,0,128,GRASS,DIRT)
-Grass(DeadBush,NotGrouped,4,100.0,SAND,HARD_CLAY,STAINED_CLAY,DIRT)
-Plant(PUMPKIN,1,3.0,0,128,GRASS)
-Reed(SUGAR_CANE_BLOCK,50,100.0,0,128,GRASS,DIRT,SAND)
-Cactus(CACTUS,10,100.0,0,128,SAND)
 Liquid(WATER,20,100.0,8,128,STONE)
 Liquid(LAVA,10,100.0,8,128,STONE)
-Well(SANDSTONE,STEP:1,WATER,1,0.1,2,128,SAND)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -371,7 +364,7 @@ StrongholdsEnabled: true
 NetherFortressesEnabled: true
 
 # The village type in this biome. Can be wood, sandstone or disabled.
-VillageType: sandstone
+VillageType: disabled
 
 # The mineshaft rarity from 0 to 100. 0 = no mineshafts, 1 = default rarity, 100 = a wooden chaos.
 MineshaftRarity: 1.0
