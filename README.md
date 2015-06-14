@@ -13,7 +13,7 @@ Content Mods:
 - [ChickenChunks](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods) by ChickenBones (MIT)
 - [Carpenter's Blocks](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1288875-carpenters-blocks) by MineShopper (LGPL v2.1)
 - [Chisel](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2254671-chisel-2-2-3-10) by TheCricket26 (GPL v2)
-- [Compact Machines](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2220422-compact-machines-v1-18) by Davenonymous (LGPL v3)
+- [Compact Machines](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2220422-compact-machines-v1-18) by Davenonymous (LGPL v3) (disabled)
 - [ComputerCraft](http://www.computercraft.info/) by dan200 (Closed)
 - [Custom NPCs](http://www.kodevelopment.nl/minecraft/customnpcs) by Noppes (Closed?) 
 - [EnderStorage](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods) by ChickenBones (MIT)
